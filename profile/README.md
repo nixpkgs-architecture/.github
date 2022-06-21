@@ -25,23 +25,61 @@ Such improvements have to be backwards-compatible regarding the conventionally a
 
 ## Process
 
+Consensus, prototyping, data collection
+
 Based on [Nix RFCs](https://github.com/NixOS/rfcs)
 
-## Team
+## Administration
+
+### Team
+
+TODO: What does it mean to be a team member? 
 
 The team consists of:
-- Silvan Mosberger (@infinisil, contact@infinisil.com, Tweag)
+- Silvan Mosberger ([@infinisil](https://github.com/infinisil/), contact@infinisil.com, [Tweag](https://www.tweag.io/))
 
-### Joining the team
+#### Joining the team
 
-Anybody with an interest in discussing or working on nixpkgs design is welcome
+Anybody with an interest in discussing or working on nixpkgs design is welcome to join the team.
 
-To join the team, open a PR to change the above team list to include your entry
+Requirements:
+- GitHub account (for joining github.com/nixpkgs-design)
+- Matrix account (for joining #nixpkgs-design:nixos.org)
 
-## Communication
+To join the team, open a PR to change the above team list to include your entry. [Direct edit link](https://github.com/nixpkgs-design/.github/edit/master/profile/README.md).
 
-Team page: https://github.com/nixpkgs-design
-Chat: Matrix channel #nixpkgs-design:nixos.org
-Weekly meetings: https://meet.jit.si/
+### Code
 
+Code developed for the nixpkgs design team is generally committed under the [nixpkgs-design GitHub organization](https://github.com/nixpkgs-design).
+
+### Project management
+
+GitHub Projects
+
+### Discussions
+
+- For synchronous text conversations the #nixpkgs-design:nixos.org channel is used.
+- For synchronous video/audio conversations, jitsi is used
+- For asynchronous text conversations discourse can be used (create discourse tag for nixpkgs design team)
+
+### Meetings
+
+Weekly 1h meetings (TODO: Where? Probably https://meet.jit.si/)
+
+Agenda:
+
+- Protocol (5m)
+  - Who records and start recording
+  - Who takes meeting notes
+  - Who leads the meeting
+- Introduction and Administration (5m)
+  - Optional onboarding of new members
+  - Organizational changes
+- Discussions (50m)
+  - Status updates since last week
+  - Next steps
+
+Meeting notes in https://pad.lassul.us/, later committed to github.com/nixpkgs-design/meetings
+
+Meetings recorded, later uploaded to youtube.com
 
