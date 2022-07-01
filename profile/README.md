@@ -1,4 +1,10 @@
-# Nixpkgs Design Team
+# Nixpkgs Team
+
+TODO: Two objectives:
+- Decide on things that no single person can decide themselves
+- Develop things that no single person can develop themselves
+
+TODO: Don't just focus on technical issues
 
 ## Motivation
 
@@ -29,7 +35,7 @@ Such improvements have to be backwards-compatible regarding the conventionally a
 
 This section describes the process of going from an issue to a solution. While described here as one, this shouldn't be a linear process. Instead this should be done in a feedback-oriented way.
 
-To track progress for an issue, [GitHub projects](https://github.com/orgs/nixpkgs-design/projects?type=beta) are used.
+To track progress for an issue, [GitHub projects](https://github.com/orgs/nixpkgs-team/projects?type=beta) are used.
 
 ### Problem statement
 
@@ -54,13 +60,13 @@ To decide on a solution, consensus has to be reached among _all_ team members. I
 
 ### Official RFC
 
-In order to comply with the [Nix RFC process](https://github.com/NixOS/rfcs), after the team has reached consensus among themselves, an RFC should be created so the decision can be approved officially. Members of the nixpkgs design team are encouraged to nominate themselves as [RFC shepherds](https://github.com/NixOS/rfcs#shepherd-team).
+In order to comply with the [Nix RFC process](https://github.com/NixOS/rfcs), after the team has reached consensus among themselves, an RFC should be created so the decision can be approved officially. Members of the nixpkgs team are encouraged to nominate themselves as [RFC shepherds](https://github.com/NixOS/rfcs#shepherd-team).
 
 ## Administration
 
 ### Team
 
-The nixpkgs design team is there to develop and discuss the large-scale design of nixpkgs. As a team member you are expected to partake in the teams discussions by bringing in your expertise and opinions in order to steer the final decisions into the best direction.
+The nixpkgs team is there to develop and discuss the large-scale design of nixpkgs. As a team member you are expected to partake in the teams discussions by bringing in your expertise and opinions in order to steer the final decisions into the best direction.
 
 While anybody is welcome to join the public nixpkgs design discussions, both to listen in or to bring their opinion, only the team members need to reach consensus to make decisions.
 
@@ -77,9 +83,9 @@ The requirements for being part of the team:
 
 Additional recommendations:
 - Be willing and available to have occasional synchronous audio/video meetings
-- Have a GitHub account, allowing you to become part of the [nixpkgs-design](https://github.com/nixpkgs-design) organization for working on code together
+- Have a GitHub account, allowing you to become part of the [nixpkgs-team](https://github.com/nixpkgs-team) organization for working on code together
 
-To join the team, reach out to the [#nixpkgs-design:nixos.org](https://matrix.to/#/#nixpkgs-design:nixos.org) Matrix channel.
+To join the team, reach out to the [#nixpkgs-team:nixos.org](https://matrix.to/#/#nixpkgs-team:nixos.org) Matrix channel.
 
 #### Leaving the team
 
@@ -87,13 +93,13 @@ If the requirements for being part of the team are not met anymore, the member s
 
 ### Code
 
-Code developed for the nixpkgs design team is generally committed under the [nixpkgs-design GitHub organization](https://github.com/nixpkgs-design).
+Code developed for the nixpkgs team is generally committed under the [nixpkgs-team GitHub organization](https://github.com/nixpkgs-team).
 
 ### Communication
 
 Team communication happens in mainly two forms:
-- Continuously over text in the [#nixpkgs-design:nixos.org](https://matrix.to/#/#nixpkgs-design:nixos.org) Matrix channel
-- Weekly from 15:00 to 16:00 UTC over audio/video in a meeting on https://meet.jit.si/nixpkgs-design
+- Continuously over text in the [#nixpkgs-team:nixos.org](https://matrix.to/#/#nixpkgs-team:nixos.org) Matrix channel
+- Weekly from 15:00 to 16:00 UTC over audio/video in a meeting on https://meet.jit.si/nixpkgs-team
 
 Other forms can be used as needed.
 
@@ -115,5 +121,5 @@ The agenda of the weekly meetings is as follows:
 
 Meetings recorded and uploaded or live-streamed to YouTube
 
-Meeting notes in https://pad.lassul.us/, later committed to https://github.com/nixpkgs-design/meetings
+Meeting notes in https://pad.lassul.us/, later committed to https://github.com/nixpkgs-team/meetings
 
