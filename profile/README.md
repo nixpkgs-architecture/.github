@@ -1,4 +1,4 @@
-# Nixpkgs Team
+# Nixpkgs Architecture Team
 
 TODO: Two objectives:
 - Decide on things that no single person can decide themselves
@@ -22,20 +22,20 @@ However, the current state of nixpkgs leaves a lot to be desired:
 
 ## Goals
 
-The goal of this team is to improve the large-scale design of nixpkgs, focusing on issues that are too large for any single individual to undertake, or that require consistency among all of nixpkgs.
+The goal of this team is to improve the large-scale architecture of nixpkgs, focusing on issues that are too large for any single individual to undertake, or that require consistency among all of nixpkgs.
 
 Such improvements have to be backwards-compatible regarding the conventionally agreed-upon API surface of nixpkgs. Backwards incompatible changes are only allowed after a deprecation window with an appropriate duration and an accompanying warning.
 
 ### Non-goals
 
-- Making design improvements to NixOS
+- Making architectural improvements to NixOS
 - Review and merge the huge number of nixpkgs PRs
 
 ## Process
 
 This section describes the process of going from an issue to a solution. While described here as one, this shouldn't be a linear process. Instead this should be done in a feedback-oriented way.
 
-To track progress for an issue, [GitHub projects](https://github.com/orgs/nixpkgs-team/projects?type=beta) are used.
+To track progress for an issue, [GitHub projects](https://github.com/orgs/nixpkgs-architecture/projects?type=beta) are used.
 
 ### Problem statement
 
@@ -66,9 +66,9 @@ In order to comply with the [Nix RFC process](https://github.com/NixOS/rfcs), af
 
 ### Team
 
-The nixpkgs team is there to develop and discuss the large-scale design of nixpkgs. As a team member you are expected to partake in the teams discussions by bringing in your expertise and opinions in order to steer the final decisions into the best direction.
+The nixpkgs team is there to develop and discuss the large-scale architecture of nixpkgs. As a team member you are expected to partake in the teams discussions by bringing in your expertise and opinions in order to steer the final decisions into the best direction.
 
-While anybody is welcome to join the public nixpkgs design discussions, both to listen in or to bring their opinion, only the team members need to reach consensus to make decisions.
+While anybody is welcome to join the public nixpkgs architecture discussions, both to listen in or to bring their opinion, only the team members need to reach consensus to make decisions.
 
 #### Current Team
 
@@ -77,15 +77,15 @@ While anybody is welcome to join the public nixpkgs design discussions, both to 
 #### Joining the team
 
 The requirements for being part of the team:
-- Having an interest in the large-scale design of nixpkgs
+- Having an interest in the large-scale architecture of nixpkgs
 - Being able to discuss with reason, because only with reason it is possible to find consensus for decisions among a large team
 - Being reachable through [Matrix](https://matrix.org/), so that at least asynchronous communication is possible
 
 Additional recommendations:
 - Be willing and available to have occasional synchronous audio/video meetings
-- Have a GitHub account, allowing you to become part of the [nixpkgs-team](https://github.com/nixpkgs-team) organization for working on code together
+- Have a GitHub account, allowing you to become part of the [nixpkgs-architecture](https://github.com/nixpkgs-architecture) organization for working on code together
 
-To join the team, reach out to the [#nixpkgs-team:nixos.org](https://matrix.to/#/#nixpkgs-team:nixos.org) Matrix channel.
+To join the team, reach out to the [#nixpkgs-architecture:nixos.org](https://matrix.to/#/#nixpkgs-architecture:nixos.org) Matrix channel.
 
 #### Leaving the team
 
@@ -93,13 +93,13 @@ If the requirements for being part of the team are not met anymore, the member s
 
 ### Code
 
-Code developed for the nixpkgs team is generally committed under the [nixpkgs-team GitHub organization](https://github.com/nixpkgs-team).
+Code developed for the nixpkgs team is generally committed under the [nixpkgs-architecture GitHub organization](https://github.com/nixpkgs-architecture).
 
 ### Communication
 
 Team communication happens in mainly two forms:
-- Continuously over text in the [#nixpkgs-team:nixos.org](https://matrix.to/#/#nixpkgs-team:nixos.org) Matrix channel
-- Weekly from 15:00 to 16:00 UTC over audio/video in a meeting on https://meet.jit.si/nixpkgs-team
+- Continuously over text in the [#nixpkgs-architecture:nixos.org](https://matrix.to/#/#nixpkgs-architecture:nixos.org) Matrix channel
+- Weekly from 15:00 to 16:00 UTC over audio/video in a meeting on https://meet.jit.si/nixpkgs-architecture
 
 Other forms can be used as needed.
 
@@ -121,5 +121,5 @@ The agenda of the weekly meetings is as follows:
 
 Meetings recorded and uploaded or live-streamed to YouTube
 
-Meeting notes in https://pad.lassul.us/, later committed to https://github.com/nixpkgs-team/meetings
+Meeting notes in https://pad.lassul.us/, later committed to https://github.com/nixpkgs-architecture/meetings
 
