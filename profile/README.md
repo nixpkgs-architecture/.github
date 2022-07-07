@@ -136,6 +136,8 @@ Team communication happens in mainly two forms:
 - Weekly from 15:00 to 16:00 UTC on Thursdays over audio/video in a meeting on https://meet.jit.si/nixpkgs-architecture
   ([download .ics](./team-meeting.ics?raw=1))
 
+<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NTl1dnFlcGw1aTdlbGduNjJrajc1azRzYnFfMjAyMjA3MTRUMTUwMDAwWiBiOW81MmZvYnFqYWs4b3E4bGZraGczdDBxZ0Bn&amp;tmsrc=b9o52fobqjak8oq8lfkhg3t0qg%40group.calendar.google.com&amp;scp=ALL"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>
+
 Other forms of communication can be used as needed.
 
 ### Meetings
