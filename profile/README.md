@@ -133,27 +133,12 @@ Code developed for the nixpkgs team is generally committed under the [nixpkgs-ar
 
 Team communication happens in mainly two forms:
 - Continuously over text in the [#nixpkgs-architecture:nixos.org](https://matrix.to/#/#nixpkgs-architecture:nixos.org) Matrix channel
-- Weekly from 15:00 to 16:00 UTC over audio/video in a meeting on https://meet.jit.si/nixpkgs-architecture
+- Weekly over audio/video in a meeting on Jitsi
 
 Other forms of communication can be used as needed.
 
 ### Meetings
 
-The agenda of the weekly meetings is as follows:
+Meetings are currently held weekly on Thursdays from 15:00 to 16:00 UTC at https://meet.jit.si/nixpkgs-architecture and are fully public. Meetings are tracked as a calendar event in the public [NixOS Google Calendar](https://calendar.google.com/calendar/embed?src=b9o52fobqjak8oq8lfkhg3t0qg%40group.calendar.google.com&ctz=Europe%2FZurich). If you're interested in participating (whether you're a member of the team or not), ask for an invite with your Email in [#nixpkgs-architecture:nixos.org](https://matrix.to/#/#nixpkgs-architecture:nixos.org), so you get automatic updates when something changes about the event. Anybody that's already invited to the meeting is free and encouraged to invite anybody else.
 
-- Protocol (5m)
-  - Who records and start recording
-  - Who takes meeting notes
-  - Who leads the meeting
-- Introduction and Administration (5m)
-  - Optional onboarding of new members
-  - Organizational changes
-- Discussions (50m)
-  - Status updates since last week
-  - Next steps
-
-
-Meetings recorded and uploaded or live-streamed to YouTube
-
-Meeting notes in https://pad.lassul.us/, later committed to https://github.com/nixpkgs-architecture/meetings
-
+Every meeting is live-streamed/uploaded to the [NixOS YouTube channel](https://www.youtube.com/c/NixOS-Foundation) for later viewing. Meeting notes are taken on https://pad.lassul.us/ and later committed to https://github.com/nixpkgs-architecture/meetings.
