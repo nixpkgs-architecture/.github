@@ -133,7 +133,8 @@ Code developed for the nixpkgs team is generally committed under the [nixpkgs-ar
 
 Team communication happens in mainly two forms:
 - Continuously over text in the [#nixpkgs-architecture:nixos.org](https://matrix.to/#/#nixpkgs-architecture:nixos.org) Matrix channel
-- Weekly from 15:00 to 16:00 UTC over audio/video in a meeting on https://meet.jit.si/nixpkgs-architecture
+- Weekly from 15:00 to 16:00 UTC on Thursdays over audio/video in a meeting on https://meet.jit.si/nixpkgs-architecture
+  ([download .ics](./team-meeting.ics?raw=1))
 
 Other forms of communication can be used as needed.
 
