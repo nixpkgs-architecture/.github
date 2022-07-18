@@ -76,8 +76,8 @@ While anybody is welcome to join the public nixpkgs architecture discussions, bo
 
 #### Current Team
 
-- Silvan Mosberger ([@infinisil:matrix.org](https://matrix.to/#/@infinisil:matrix.org), [Tweag](https://www.tweag.io/))
-- Thomas Bereknyei ([@tomberek:matrix.org](https://matrix.to/#/@tomberek:matrix.org), [Flox](https://floxdev.com/)
+- Silvan Mosberger ([@infinisil:matrix.org](https://matrix.to/#/@infinisil:matrix.org), [@infinisil](https://github.com/infinisil/), [Tweag](https://www.tweag.io/))
+- Thomas Bereknyei ([@tomberek:matrix.org](https://matrix.to/#/@tomberek:matrix.org), [@tomberek](https://github.com/tomberek/), [Flox](https://floxdev.com/))
 
 A log of the team modifications is available [here](https://github.com/nixpkgs-architecture/team-log)
 
