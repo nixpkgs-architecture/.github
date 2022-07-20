@@ -31,6 +31,10 @@ To give a taste, here are some examples for concrete issues this team might be a
 - Authority over nixpkgs is hard to delegate, commit bits give too much power, maybe it could use some splitting up into different repositories
 - The documentation of Nix code is bad, hard to find or non-existent
 
+Check out [this board](https://github.com/orgs/nixpkgs-architecture/projects/2/views/2) for an up-to-date list of issues that are being considered.
+
+If you have an idea for an issue that should be considered, please [open a new issue](https://github.com/nixpkgs-architecture/issues/issues/new?assignees=&labels=&template=issue.md&title=), it will be automatically added to the board.
+
 ### Non-goals
 
 - Reviewing and merging trivial PRs: Instead of trying to bring down the PR queue, this team should try to find the root cause of such issues and work on fixing those. This could mean improving maintainer independence, splitting nixpkgs up or something else
@@ -39,11 +43,13 @@ To give a taste, here are some examples for concrete issues this team might be a
 
 This section describes the process of going from an issue to a solution. While described here as one, this shouldn't be a linear process. Instead this should be done in a feedback-oriented way.
 
-To track progress for an issue, [GitHub projects](https://github.com/orgs/nixpkgs-architecture/projects?type=beta) are used.
+Every issue considered considered by this team is tracked by [this project board](https://github.com/orgs/nixpkgs-architecture/projects/2).
+
+The recommended way to track progress for a specific issue is to create a separate project board and fill it with nixpkgs issues.
 
 ### Problem statement
 
-Before working towards a solution the team needs to figure out whether there even is a problem, what its suspected root cause is, and to clearly describe it.
+Before working towards a solution the team needs to figure out whether there even is a problem, what its suspected root cause is, and to clearly describe it. This is done with an issue in the main [project board](https://github.com/orgs/nixpkgs-architecture/projects/2)
 
 ### Solution exploration
 
@@ -55,12 +61,16 @@ The team should explore various potential solutions and figure out trade-offs wi
 
 Specifically for nixpkgs, this includes all the past history, with all its approaches, refactorings, complaints and testimonies.
 
-### Reaching consensus
+### Attempt at consensus
 
-To decide on a solution, consensus has to be reached among _all_ team members. If consensus cannot be reached yet it indicates that there is some fundamental misundestanding or difference in values between team members. This needs to be reconciled by:
+To decide on a solution, ideally consensus should to be reached among the team members. If consensus cannot be reached yet it can mean that there is a fundamental misundestanding or difference in values between team members. This should be reconciled by:
 - Going back to solution exploration to find new alternatives or gather more information or support for arguments
 - Trying to better understand each other by talking and listening
 - Being willing to compromise
+
+### Last resort: Voting
+
+As a last resort, if still no consensus can be reached after everything has been tried, [@infinisil:matrix.org](https://matrix.to/#/@infinisil:matrix.org) can decide to hold a vote to decide on the issue. The members that don't win in the vote should be accomodated to the best extent possible.
 
 ### Official RFC
 
@@ -72,7 +82,7 @@ In order to comply with the [Nix RFC process](https://github.com/NixOS/rfcs), af
 
 As a team member you are expected to partake in the teams discussions by bringing in your expertise and opinions in order to steer the final decisions into the best direction.
 
-While anybody is welcome to join the public nixpkgs architecture discussions, both to listen in or to bring their opinion, only the team members need to reach consensus to make decisions.
+While anybody is welcome to join the public nixpkgs architecture discussions, both to listen in or to bring their opinion, only the team members need to make decisions.
 
 #### Current Team
 
@@ -87,7 +97,7 @@ A log of the team modifications is available [here](https://github.com/nixpkgs-a
 The requirements for being part of the team:
 - Having an interest in the large-scale architecture of nixpkgs
 - Being reachable through [Matrix](https://matrix.org/), so that at least asynchronous communication is possible
-- Being able to discuss with [reason](https://en.wikipedia.org/wiki/Reason), because only then it is possible to find consensus for decisions among a larger team
+- Being able to discuss with [reason](https://en.wikipedia.org/wiki/Reason), because only then it is viable to find consensus for decisions among a larger team
 
 Additional strong recommendations:
 - Be willing and available to have occasional synchronous audio/video meetings
@@ -99,6 +109,7 @@ The process of joining the team is as follows:
   - If you'd like to join the GitHub team, mention your GitHub user
   - If applicable and wanted, the company that sponsors time to work on this
   - Tell us what times you'd be available for audio/video meetings
+  - If you want an automatically updating invite to the weekly meetings, mention your email address
 - A discussion will take place as to whether you're accepted as a new team member
 - The current team members will reach consensus on whether to accept the request and record that decision in the public [team log](https://github.com/nixpkgs-architecture/team-log) document, including all relevant arguments
 - If accepted, [@infinisil:matrix.org](https://matrix.to/#/@infinisil:matrix.org) will take these steps for adding you to the team:
@@ -133,11 +144,11 @@ Code developed for the nixpkgs team is generally committed under the [nixpkgs-ar
 
 ### Communication
 
-Team communication happens in mainly two forms:
+Team communication happens in mainly these forms:
 - Continuously over text in the [#nixpkgs-architecture:nixos.org](https://matrix.to/#/#nixpkgs-architecture:nixos.org) Matrix channel
 - Weekly over audio/video in a meeting on Jitsi
-
-Other forms of communication can be used as needed.
+- On Discourse for persistent discussions among the wider community, more end-user focused
+- In GitHub comments for persistent discussions in the team and with nixpkgs developers
 
 ### Meetings
 
