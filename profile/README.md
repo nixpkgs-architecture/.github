@@ -89,6 +89,8 @@ While anybody is welcome to join the public nixpkgs architecture discussions, bo
 - Silvan Mosberger ([@infinisil:matrix.org](https://matrix.to/#/@infinisil:matrix.org), [@infinisil](https://github.com/infinisil/), [Tweag](https://www.tweag.io/))
 - Thomas Bereknyei ([@tomberek:matrix.org](https://matrix.to/#/@tomberek:matrix.org), [@tomberek](https://github.com/tomberek/), [Flox](https://floxdev.com/))
 - Robert Hensing ([@roberthensing:matrix.org](https://matrix.to/#/@roberthensing:matrix.org), [@roberth](https://github.com/roberth/), [Hercules CI](https://hercules-ci.com/))
+- Christian Höppner ([@chris:mkaito.net](https://matrix.to/#/@chris:mkaito.net), [@mkaito](https://github.com/mkaito), [Tweag](https://www.tweag.io/))
+- John Ericson ([@Ericson2314:matrix.org](https://matrix.to/#/@Ericson2314:matrix.org), [@Ericson2314](https://github.com/Ericson2314), [Obsidian Systems](https://obsidian.systems/))
 
 A log of the team modifications is available [here](https://github.com/nixpkgs-architecture/team-log)
 
