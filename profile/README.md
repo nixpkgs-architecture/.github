@@ -151,6 +151,7 @@ Team communication happens in mainly these forms:
 - Weekly over audio/video in a meeting on Jitsi
 - On Discourse for persistent discussions among the wider community, more end-user focused
 - In GitHub comments for persistent discussions in the team and with nixpkgs developers
+- Gathering design knowledge on [the wiki](https://github.com/nixpkgs-architecture/issues/wiki)
 
 ### Meetings
 
