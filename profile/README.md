@@ -1,43 +1,6 @@
 # Nixpkgs Architecture Team
 
-The Nixpkgs Architecture Team is there to solve architectural nixpkgs issues that are too big in scope for any single person to undertake.
-
-## Motivation
-
-Nixpkgs is arguably the most valuable resource for Nix users. Its collection of packages is used by virtually every Nix user, private or commercially. However, there's continuous complaints by virtually every user of nixpkgs about various aspects, like missing documentation, difficulty of contributing, inconsistent interfaces and missing features. These problems need to be fixed eventually, doing nothing is not an option if Nix should be taken seriously as a universal solution for packaging.
-
-The scale of nixpkgs has grown so considerably in recent years that it's not possible anymore for any single person to fix larger problems. And even if someone does manage to find _a_ solution to a problem, there's nobody who can officially _accept_ that solution and actually merge it. Over the years a number of improvements have been suggested and implemented, but most of them never made it to the finish line.
-
-By creating a team tasked with the job of finding solutions to these issues it becomes much more feasible to actually do it.
-
-## Goals
-
-The primary goal of this team is to make interactions with nixpkgs a joy, so that it's easy and intuitive to use, learn and contribute to. The way in which this should be achieved is to fix problems in a clean, consistent and future-proof way. It should be ensured that nixpkgs is a solid and trustworthy foundation for the Nix community that can be relied upon.
-
-The process in which this should be achieved is to gather and analyze critical feedback from users to find the root causes of problems, coming up with and evaluating solutions to these problems, reaching consensus and deciding on a solution and then actually turning it into reality. This is explained more detailed in the [process](#process) section.
-
-Since nixpkgs is widely used by third-party code, this team needs to be very careful to ensure reasonabe backwards-compatibility. Backwards incompatible changes are only in scope after a deprecation window of an appropriate duration and accompanying warning.
-
-### Concrete Examples
-
-To give a taste, here are some examples for concrete issues this team might be attempting to solve:
-
-- Inconsistent and confusing overriding story: There's overlays, `.override`, `.overrideAttrs`, `overrideScope'`, `.extend` and others, each of which has a related use case. Knowing when to use what is unreasonably difficult. And sometimes there's no way to do the desired override at all
-- Inconsistent package versioning: If multiple versions of a package are required, the convention is to introduce additional top-level attributes reflecting the alternation in their name, such as `python2`, `ffmpeg-full`, `firefox-esr`, `haskellPackages.aeson_1_5_6_0`. This is problematic because the attributes are not discoverable, follow no shared convention and they make overrides more problematic. Additionally there is [a desire](https://github.com/NixOS/nixpkgs/issues/93327) to be able to refer to specific versions of packages
-- Problematic `stdenv.mkDerivation` base builder concepts: Focused on C and Makefiles, attributes are stringified and turned to environment variables, build phases are finnicky to override, package sources and patches are tied to the builder, different build inputs are hard to distinguish.
-- Package meta information is too vague: What does `broken` mean, unfree licenses, supported platforms, maybe a category/tagging system would be nice
-- File structure of the `pkgs` directory and the `pkgs/top-level/all-packages.nix` file is arbitrary and inconsistent
-- No well-specified process for backwards compatibility and deprecation of packages, other attributes, function arguments, etc.
-- Authority over nixpkgs is hard to delegate, commit bits give too much power, maybe it could use some splitting up into different repositories
-- The documentation of Nix code is bad, hard to find or non-existent
-
-Check out [this board](https://github.com/orgs/nixpkgs-architecture/projects/2/views/2) for an up-to-date list of issues that are being considered.
-
-If you have an idea for an issue that should be considered, please [open a new issue](https://github.com/nixpkgs-architecture/issues/issues/new?assignees=&labels=&template=issue.md&title=), it will be automatically added to the board.
-
-### Non-goals
-
-- Reviewing and merging trivial PRs: Instead of trying to bring down the PR queue, this team should try to find the root cause of such issues and work on fixing those. This could mean improving maintainer independence, splitting nixpkgs up or something else
+The Nixpkgs Architecture Team is there to solve architectural nixpkgs issues that are too big in scope for any single person to undertake. For more general information about motivation, goals and current team members, see [the here](https://nixos.org/community/teams/nixpkgs-architecture.html).
 
 ## Process
 
@@ -86,11 +49,7 @@ While anybody is welcome to join the public nixpkgs architecture discussions, bo
 
 #### Current Team
 
-- Silvan Mosberger ([@infinisil:matrix.org](https://matrix.to/#/@infinisil:matrix.org), [@infinisil](https://github.com/infinisil/), [Tweag](https://www.tweag.io/))
-- Thomas Bereknyei ([@tomberek:matrix.org](https://matrix.to/#/@tomberek:matrix.org), [@tomberek](https://github.com/tomberek/), [Flox](https://floxdev.com/))
-- Robert Hensing ([@roberthensing:matrix.org](https://matrix.to/#/@roberthensing:matrix.org), [@roberth](https://github.com/roberth/), [Hercules CI](https://hercules-ci.com/))
-- Christian Höppner ([@chris:mkaito.net](https://matrix.to/#/@chris:mkaito.net), [@mkaito](https://github.com/mkaito), [Tweag](https://www.tweag.io/))
-- John Ericson ([@Ericson2314:matrix.org](https://matrix.to/#/@Ericson2314:matrix.org), [@Ericson2314](https://github.com/Ericson2314), [Obsidian Systems](https://obsidian.systems/))
+See [here](https://nixos.org/community/teams/nixpkgs-architecture.html).
 
 A log of the team modifications is available [here](https://github.com/nixpkgs-architecture/team-log)
 
@@ -115,7 +74,7 @@ The process of joining the team is as follows:
 - A discussion will take place as to whether you're accepted as a new team member
 - The current team members will reach consensus on whether to accept the request and record that decision in the public [team log](https://github.com/nixpkgs-architecture/team-log) document, including all relevant arguments
 - If accepted, [@infinisil:matrix.org](https://matrix.to/#/@infinisil:matrix.org) will take these steps for adding you to the team:
-  - Updating the above [team list](#current-team) list with your entry and all relevant details
+  - Updating the team list [here](https://github.com/NixOS/nixos-homepage/blob/master/community/teams/nixpkgs-architecture.tt) with your entry and all relevant details
   - If you want to join the GitHub team, adding your GitHub user to the [nixpkgs architecture](https://github.com/nixpkgs-architecture) organization
   - If you haven't joined the weekly public meetings already, invite you
 
@@ -137,7 +96,7 @@ If there is a hint that a team member doesn't fulfil the requirements anymore bu
 
 The process for voluntarily or involuntarily removing a team member is done by [@infinisil:matrix.org](https://matrix.to/#/@infinisil:matrix.org) and goes as follows:
 - An removal entry is added to the public [team log](https://github.com/nixpkgs-architecture/team-log) including all relevant arguments for removal
-- Remove the respective team member from the above [team list](#current-team)
+- Remove the respective team member from the team list [here](https://github.com/NixOS/nixos-homepage/blob/master/community/teams/nixpkgs-architecture.tt)
 - If applicable, removing the respective team member from the [nixpkgs architecture](https://github.com/nixpkgs-architecture) organization
 
 ### Code
