@@ -66,7 +66,7 @@ These steps should be taken a day ahead of every meeting.
     The [Nixpkgs Architecture Team](https://nixos.org/community/teams/nixpkgs-architecture.html) will have the next meeting tomorrow at MEETING DAY AND TIME. The meeting is open for anybody to join.
     
     - [Meeting link](https://meet.jit.si/nixpkgs-architecture)
-    - [Livestream](https://www.youtube.com/channel/UC_BFweJOiukTHdKCr1P0kRQ)
+    - [Livestream](https://www.youtube.com/@nixpkgs-architecture)
     - [Live meeting notes](https://pad.lassul.us/uIi7xeSJTW6LJUEHulZgVQ)
     
     ## Tentative Agenda
@@ -105,7 +105,7 @@ These steps should be taken a day ahead of every meeting.
 - Go to the [meeting notes](https://pad.lassul.us/uIi7xeSJTW6LJUEHulZgVQ?edit)
 - Fill out the "Agenda" entry with the link to the Discourse agenda
 - Fill out the "Recording" field with the URL to the live-stream. To copy the URL:
-  - Go to the [Nixpkgs Architecture Team YouTube channel](https://www.youtube.com/channel/UC_BFweJOiukTHdKCr1P0kRQ)
+  - Go to the [Nixpkgs Architecture Team YouTube channel](https://www.youtube.com/@nixpkgs-architecture)
   - Click on the upcoming livestream
   - Click on the "Share" button, a panel should open, displaying the URL to the stream
   - Click on "Copy" to quickly copy the URL into the clipboard
@@ -117,7 +117,7 @@ These steps should be taken a day ahead of every meeting.
 - Write a message on the [#nixpkgs-architecture:nixos.org](https://matrix.to/#/#nixpkgs-architecture:nixos.org) Matrix channel with the following content:
 
   ```
-  @room: The next meeting will take place soon - [Meeting link](https://meet.jit.si/nixpkgs-architecture) - [live stream](https://www.youtube.com/channel/UC_BFweJOiukTHdKCr1P0kRQ) - [meeting notes](https://pad.lassul.us/uIi7xeSJTW6LJUEHulZgVQ) - [agenda](https://discourse.nixos.org/c/dev/nixpkgs/44)
+  @room: The next meeting will take place soon - [Meeting link](https://meet.jit.si/nixpkgs-architecture) - [live stream](https://www.youtube.com/@nixpkgs-architecture) - [meeting notes](https://pad.lassul.us/uIi7xeSJTW6LJUEHulZgVQ) - [agenda](https://discourse.nixos.org/c/dev/nixpkgs/44)
   ```
 
 - If possible with your Matrix client, create and copy a shareable URL to the message
