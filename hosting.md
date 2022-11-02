@@ -62,13 +62,15 @@ These steps should be taken a day ahead of every meeting.
   - Category should be [Development > Nixpkgs Architecture](https://discourse.nixos.org/c/dev/nixpkgs/44)
   - The start of the text should be something like this (fill in MEETING DAY AND TIME):
 
-    > The [Nixpkgs Architecture Team](https://nixos.org/community/teams/nixpkgs-architecture.html) will have the next meeting tomorrow at TIME TIMEZONE. The meeting is open for anybody to join.
-    >
-    > Meeting link: https://meet.jit.si/nixpkgs-architecture
-    > Livestream: https://www.youtube.com/channel/UC_BFweJOiukTHdKCr1P0kRQ
-    > Live meeting notes: https://pad.lassul.us/uIi7xeSJTW6LJUEHulZgVQ
-    >
-    > ## Tentative Agenda
+    ```
+    The [Nixpkgs Architecture Team](https://nixos.org/community/teams/nixpkgs-architecture.html) will have the next meeting tomorrow at MEETING DAY AND TIME. The meeting is open for anybody to join.
+    
+    - [Meeting link](https://meet.jit.si/nixpkgs-architecture)
+    - [Livestream](https://www.youtube.com/channel/UC_BFweJOiukTHdKCr1P0kRQ)
+    - [Live meeting notes](https://pad.lassul.us/uIi7xeSJTW6LJUEHulZgVQ)
+    
+    ## Tentative Agenda
+    ```
 
 - Go to the [Matrix room](https://matrix.to/#/#nixpkgs-architecture:nixos.org) and find the message announcing the previous meeting
   - One way to do this is by searching for `@room`
@@ -86,6 +88,7 @@ These steps should be taken a day ahead of every meeting.
 - Click on "SCHEDULE STREAM"
 - Click on "REUSE DETAILS"
 - Update the meeting number and the date in the title
+- Select the "Nixpkgs Architecture Team Meetings" playlist
 - Click "NEXT" to get to the Customization tab
 - Click "NEXT" to get to the Visibility tab
 - If the meeting doesn't happen in your timezone, run the following command, replacing `<date>`, `<time>` and `<timezone>` with the details from the meeting, to figure out the time in your local timezone
@@ -95,6 +98,7 @@ These steps should be taken a day ahead of every meeting.
   ```
 
 - Under "Schedule", enter the date and time returned from the above command
+- Click "DONE"
 
 ### Preparing the meeting notes
 
@@ -112,7 +116,9 @@ These steps should be taken a day ahead of every meeting.
 
 - Write a message on the [#nixpkgs-architecture:nixos.org](https://matrix.to/#/#nixpkgs-architecture:nixos.org) Matrix channel with the following content:
 
-  > @room: The next meeting will take place soon - [Meeting link](https://meet.jit.si/nixpkgs-architecture) - [live stream](https://www.youtube.com/channel/UC_BFweJOiukTHdKCr1P0kRQ) - [meeting notes](https://pad.lassul.us/uIi7xeSJTW6LJUEHulZgVQ) - [agenda](https://discourse.nixos.org/c/dev/nixpkgs/44)
+  ```
+  @room: The next meeting will take place soon - [Meeting link](https://meet.jit.si/nixpkgs-architecture) - [live stream](https://www.youtube.com/channel/UC_BFweJOiukTHdKCr1P0kRQ) - [meeting notes](https://pad.lassul.us/uIi7xeSJTW6LJUEHulZgVQ) - [agenda](https://discourse.nixos.org/c/dev/nixpkgs/44)
+  ```
 
 - If possible with your Matrix client, create and copy a shareable URL to the message
 - Go to the [meeting notes](https://pad.lassul.us/uIi7xeSJTW6LJUEHulZgVQ?edit)
