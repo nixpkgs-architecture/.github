@@ -1,6 +1,6 @@
 # Nixpkgs Architecture Team
 
-The Nixpkgs Architecture Team is there to solve architectural nixpkgs issues that are too big in scope for any single person to undertake. For more general information about motivation, goals and current team members, see [the here](https://nixos.org/community/teams/nixpkgs-architecture.html).
+The Nixpkgs Architecture Team is there to solve architectural nixpkgs issues that are too big in scope for any single person to undertake. For more general information about motivation, goals and current team members, see [here](https://nixos.org/community/teams/nixpkgs-architecture.html).
 
 ## Process
 
