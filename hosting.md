@@ -48,52 +48,79 @@ If you have one already you can use that one, but you're free to create a new on
 - Ensure that the "Live stream key" field has been automatically filled out. Note that the title of the stream indicated might be wrong, this is not a problem
 - Click on Cancel and leave the meeting, this will work automatically for future meetings
 
-## Hosting the meeting
+## One day before the meeting
 
-These steps are necessary every time a meeting is hosted, preparation takes about 15 minutes.
+These steps should be taken a day ahead of every meeting.
+
+### Preparing the agenda
+
+- Go on [Discourse](https://discourse.nixos.org/) and create a new topic
+  - Title should be (fill in the variables)
+
+    > YYYY-MM-DD Nixpkgs Architecture Team Meeting #NUMBER
+
+  - Category should be [Development > Nixpkgs Architecture](https://discourse.nixos.org/c/dev/nixpkgs/44)
+  - The start of the text should be something like this (fill in MEETING DAY AND TIME):
+
+    > The [Nixpkgs Architecture Team](https://nixos.org/community/teams/nixpkgs-architecture.html) will have the next meeting tomorrow at TIME TIMEZONE. The meeting is open for anybody to join.
+    >
+    > Meeting link: https://meet.jit.si/nixpkgs-architecture
+    > Livestream: https://www.youtube.com/channel/UC_BFweJOiukTHdKCr1P0kRQ
+    > Live meeting notes: https://pad.lassul.us/uIi7xeSJTW6LJUEHulZgVQ
+    >
+    > ## Tentative Agenda
+
+- Go to the [Matrix room](https://matrix.to/#/#nixpkgs-architecture:nixos.org) and find the message announcing the previous meeting
+  - One way to do this is by searching for `@room`
+  - Another way is to go to the [meeting notes](https://github.com/nixpkgs-architecture/meetings) and clicking the "Matrix announcement" link on the latest meeting
+- Go through the Matrix channel logs to collect discussed topics. For each topic:
+  - If it's off-topic or otherwise doesn't seem worth further discussing, skip it. If you're unsure, it's fine to include it.
+  - Add an entry with a `###` header to the Discourse draft containing the briefly summarized discussion
+    - Include a link to the Matrix message that initiated the discussion
+    - Include the usernames of all people that participated.
+- Publish the Discourse post
 
 ### Preparing the live stream
 
-- Go to [YouTube Studio](https://studio.youtube.com/)
-- Click on the Go Live button, it looks like this:
+- Go to [YouTube Studio > Go Live > Manage](https://studio.youtube.com/channel/UC_BFweJOiukTHdKCr1P0kRQ/livestreaming/manage)
+- Click on "SCHEDULE STREAM"
+- Click on "REUSE DETAILS"
+- Update the meeting number and the date in the title
+- Click "NEXT" to get to the Customization tab
+- Click "NEXT" to get to the Visibility tab
+- If the meeting doesn't happen in your timezone, run the following command, replacing `<date>`, `<time>` and `<timezone>` with the details from the meeting, to figure out the time in your local timezone
 
-  ![The Go Live button](./go-live-button.png)
+  ```
+  date --date='<date> <time> <timezone>' +'%Y-%m-%d %r'
+  ```
 
-- Edit the live-stream by click on the "Edit" button, a panel should open
-  - Set the "Title" field to "Nixpkgs Architecture Team Meeting #NUMBER on YYYY-MM-DD", filling in the correct meeting number and date
-  - Set the "Description" field to the following, filling in the correct meeting number and date
-
-    > This is the NUMBERth meeting of the Nixpkgs Architecture Team, held on YYYY-MM-DD in https://meet.jit.si/nixpkgs-architecture. For more info on the team, see https://github.com/nixpkgs-architecture. Meeting notes are taken live in https://pad.lassul.us/uIi7xeSJTW6LJUEHulZgVQ and later uploaded to https://github.com/nixpkgs-architecture/meetings
-  - Set the "Visibility" to "Public", note that you need to click on "Done" to apply the setting. This allows sharing a link to the live-stream before it is started
-  - Under the "Playlists" section, select the "Nixpkgs Architecture Team Meetings" playlist
-  - Click "Save", the panel should close. Briefly check the "Title" and "Privacy" fields to make sure the changes were applied
-
-### Coping the URL to the stream before it started
-- Go to the [Nixpkgs Architecture Team Meetings playlist](https://www.youtube.com/playlist?list=PLHG2N-mfvWT7XA0Sn4RLGSVSpUYPlTXHI)
-- Click on the bottom-most entry of that list, it should be the just-created live-stream. This takes you to the stream viewing page
-- Click on the "Share" button, a panel should open, displaying the URL to the stream
-- Click on "Copy" to quickly copy the URL into the clipboard
-
-### Announcing the meeting on Matrix
-
-- Write a message on the [#nixpkgs-architecture:nixos.org](https://matrix.to/#/#nixpkgs-architecture:nixos.org) Matrix channel with the following content, filling in the URL to the stream from the previous section:
-
-  > @room: The next meeting will take place soon in https://meet.jit.si/nixpkgs-architecture or live streamed at STREAM-URL, meeting notes are taken https://pad.lassul.us/uIi7xeSJTW6LJUEHulZgVQ
-
-- If possible with your Matrix client, create and copy a shareable URL to the written message
+- Under "Schedule", enter the date and time returned from the above command
 
 ### Preparing the meeting notes
 
 - Go to the [meeting notes](https://pad.lassul.us/uIi7xeSJTW6LJUEHulZgVQ?edit)
-- Ensure that the meeting number is correct
-- Fill out the "Matrix announcement" field with the URL to the Matrix message from the previous section
-- Fill out the "Recording link" field with the URL to the live-stream
-- Fill out the "Who records" and "Who leads the meeting" fields with your nick or name
-- Fill out the "Who takes meeting notes" field with the person taking the meeting notes
-- Add entries to the "Administrative" section if there are any administrative things to discuss
-- Add all agenda entries to the "Agenda" section
+- Fill out the "Agenda" entry with the link to the Discourse agenda
+- Fill out the "Recording" field with the URL to the live-stream. To copy the URL:
+  - Go to the [Nixpkgs Architecture Team YouTube channel](https://www.youtube.com/channel/UC_BFweJOiukTHdKCr1P0kRQ)
+  - Click on the upcoming livestream
+  - Click on the "Share" button, a panel should open, displaying the URL to the stream
+  - Click on "Copy" to quickly copy the URL into the clipboard
+- Fill out the "Who records" field with your nickname
+- Copy the headers of the Discourse agenda entries into the meeting notes
 
-### The meeting
+## Shortly before the meeting
+
+- Write a message on the [#nixpkgs-architecture:nixos.org](https://matrix.to/#/#nixpkgs-architecture:nixos.org) Matrix channel with the following content:
+
+  > @room: The next meeting will take place soon - [Meeting link](https://meet.jit.si/nixpkgs-architecture) - [live stream](https://www.youtube.com/channel/UC_BFweJOiukTHdKCr1P0kRQ) - [meeting notes](https://pad.lassul.us/uIi7xeSJTW6LJUEHulZgVQ) - [agenda](https://discourse.nixos.org/c/dev/nixpkgs/44)
+
+- If possible with your Matrix client, create and copy a shareable URL to the message
+- Go to the [meeting notes](https://pad.lassul.us/uIi7xeSJTW6LJUEHulZgVQ?edit)
+  - Fill out the "Matrix announcement" field with the URL to the message
+  - Fill out the "Who leads the meeting" field
+  - Fill out the "Who takes meeting notes" field
+
+## The meeting
 
 - Join the [Jitsi meeting](https://meet.jit.si/nixpkgs-architecture)
 - Wait a couple minutes
@@ -105,8 +132,7 @@ These steps are necessary every time a meeting is hosted, preparation takes abou
 - Welcome everybody
 - Mention who records, who takes meeting notes and who leads the meeting
 - Have the meeting
-  - Go through all Administrative points
-  - Go through all Agenda points
+  - Go through all Agenda entries
   - Keep the time in mind
   - Keep the discussion on-topic
 - When the meeting time is up or if all agenda items have been discussed:
@@ -115,11 +141,11 @@ These steps are necessary every time a meeting is hosted, preparation takes abou
   - Click on the "..." button
   - Click on the "Stop live stream" entry
 
-### Afterwards
+## Afterwards
 
 - If necessary, clean up the [meeting notes](https://pad.lassul.us/uIi7xeSJTW6LJUEHulZgVQ?edit)
 - Upload the meeting notes to the [meetings repository](https://github.com/nixpkgs-architecture/meetings) in any way you like
   - Either copy the meeting notes into the clipboard directly or download them as a Markdown file
   - Commit the meeting notes to the repository, either via a local checkout or the GitHub UI for creating a new file
-  - Make sure that the file name is of the form YYYY-MM-DD.md
-  - The commit subject should be "Meeting #NUMBER"
+  - File name should be "YYYY-MM-DD.md", commit subject should be "Meeting #NUMBER"
+- In the Discourse agenda, create a reply containing the meeting notes
