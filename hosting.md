@@ -54,7 +54,7 @@ These steps should be taken a day ahead of every meeting.
 
 ### Preparing the live stream
 
-- Go to [YouTube Studio > Go Live > Manage](https://studio.youtube.com/channel/UC_BFweJOiukTHdKCr1P0kRQ/livestreaming)
+- Go to [YouTube Studio > Go Live > Manage](https://studio.youtube.com/)
 - Click on "SCHEDULE STREAM"
 - Click on "REUSE DETAILS"
 - Update the meeting number and the date in the title
