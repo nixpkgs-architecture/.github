@@ -52,39 +52,9 @@ If you have one already you can use that one, but you're free to create a new on
 
 These steps should be taken a day ahead of every meeting.
 
-### Preparing the agenda
-
-- Go on [Discourse](https://discourse.nixos.org/) and create a new topic
-  - Title should be (fill in the variables)
-
-    > YYYY-MM-DD Nixpkgs Architecture Team Meeting #NUMBER
-
-  - Category should be [Development > Nixpkgs Architecture](https://discourse.nixos.org/c/dev/nixpkgs/44)
-  - The start of the text should be something like this (fill in MEETING DAY AND TIME):
-
-    ```
-    The [Nixpkgs Architecture Team](https://nixos.org/community/teams/nixpkgs-architecture.html) will have the next meeting tomorrow at MEETING DAY AND TIME. The meeting is open for anybody to join.
-    
-    - [Meeting link](https://meet.jit.si/nixpkgs-architecture)
-    - [Livestream](https://www.youtube.com/@nixpkgs-architecture)
-    - [Live meeting notes](https://pad.lassul.us/uIi7xeSJTW6LJUEHulZgVQ)
-    
-    ## Tentative Agenda
-    ```
-
-- Go to the [Matrix room](https://matrix.to/#/#nixpkgs-architecture:nixos.org) and find the message announcing the previous meeting
-  - One way to do this is by searching for `@room`
-  - Another way is to go to the [meeting notes](https://github.com/nixpkgs-architecture/meetings) and clicking the "Matrix announcement" link on the latest meeting
-- Go through the Matrix channel logs to collect discussed topics. For each topic:
-  - If it's off-topic or otherwise doesn't seem worth further discussing, skip it. If you're unsure, it's fine to include it.
-  - Add an entry with a `###` header to the Discourse draft containing the briefly summarized discussion
-    - Include a link to the Matrix message that initiated the discussion
-    - Include the usernames of all people that participated.
-- Publish the Discourse post
-
 ### Preparing the live stream
 
-- Go to [YouTube Studio > Go Live > Manage](https://studio.youtube.com/channel/UC_BFweJOiukTHdKCr1P0kRQ/livestreaming/manage)
+- Go to [YouTube Studio > Go Live > Manage](https://studio.youtube.com/channel/UC_BFweJOiukTHdKCr1P0kRQ/livestreaming)
 - Click on "SCHEDULE STREAM"
 - Click on "REUSE DETAILS"
 - Update the meeting number and the date in the title
@@ -154,4 +124,4 @@ These steps should be taken a day ahead of every meeting.
   - Either copy the meeting notes into the clipboard directly or download them as a Markdown file
   - Commit the meeting notes to the repository, either via a local checkout or the GitHub UI for creating a new file
   - File name should be "YYYY-MM-DD.md", commit subject should be "Meeting #NUMBER"
-- In the Discourse agenda, create a reply containing the meeting notes
+- Create a Discourse post with the meeting notes
