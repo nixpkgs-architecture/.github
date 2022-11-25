@@ -56,9 +56,8 @@ These steps should be taken a day ahead of every meeting.
 
 - Go to [YouTube Studio > Go Live > Manage](https://studio.youtube.com/)
 - Click on "SCHEDULE STREAM"
-- Click on "REUSE DETAILS"
+- Click on "REUSE SETTINGS"
 - Update the meeting number and the date in the title
-- Select the "Nixpkgs Architecture Team Meetings" playlist
 - Click "NEXT" to get to the Customization tab
 - Click "NEXT" to get to the Visibility tab
 - If the meeting doesn't happen in your timezone, run the following command, replacing `<date>`, `<time>` and `<timezone>` with the details from the meeting, to figure out the time in your local timezone
