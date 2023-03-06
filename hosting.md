@@ -72,21 +72,19 @@ These steps should be taken a day ahead of every meeting.
 ### Preparing the meeting notes
 
 - Go to the [meeting notes](https://pad.lassul.us/uIi7xeSJTW6LJUEHulZgVQ?edit)
-- Fill out the "Agenda" entry with the link to the Discourse agenda
 - Fill out the "Recording" field with the URL to the live-stream. To copy the URL:
   - Go to the [Nixpkgs Architecture Team YouTube channel](https://www.youtube.com/@nixpkgs-architecture)
   - Click on the upcoming livestream
   - Click on the "Share" button, a panel should open, displaying the URL to the stream
   - Click on "Copy" to quickly copy the URL into the clipboard
 - Fill out the "Who records" field with your nickname
-- Copy the headers of the Discourse agenda entries into the meeting notes
 
 ## Shortly before the meeting
 
 - Write a message on the [#nixpkgs-architecture:nixos.org](https://matrix.to/#/#nixpkgs-architecture:nixos.org) Matrix channel with the following content:
 
   ```
-  @room: The next meeting will take place soon - [Meeting link](https://meet.jit.si/nixpkgs-architecture) - [live stream](https://www.youtube.com/@nixpkgs-architecture) - [meeting notes](https://pad.lassul.us/uIi7xeSJTW6LJUEHulZgVQ) - [agenda](https://discourse.nixos.org/c/dev/nixpkgs/44)
+  @room: The next meeting will take place in ~10 minutes - [meeting link](https://meet.jit.si/nixpkgs-architecture) - [live stream](https://www.youtube.com/@nixpkgs-architecture) - [meeting notes](https://pad.lassul.us/uIi7xeSJTW6LJUEHulZgVQ)
   ```
 
 - If possible with your Matrix client, create and copy a shareable URL to the message
@@ -107,10 +105,9 @@ These steps should be taken a day ahead of every meeting.
 - Welcome everybody
 - Mention who records, who takes meeting notes and who leads the meeting
 - Have the meeting
-  - Go through all Agenda entries
   - Keep the time in mind
   - Keep the discussion on-topic
-- When the meeting time is up or if all agenda items have been discussed:
+- When the meeting time is up or there's nothing else to discuss
 - Thank everybody for participation, say goodbye, but mention that people are free to continue the discussion here
 - Stop the live-stream
   - Click on the "..." button
