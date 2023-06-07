@@ -27,7 +27,7 @@ If you have one already you can use that one, but you're free to create a new on
 ### Get access to the YouTube channel
 
 - Send the E-Mail address of your Google account to [@infinisil:matrix.org](https://matrix.to/#/@infinisil:matrix.org)
-- Request Live Streaming for your Google account
+- Request Live Streaming for your Google account, 24h in advance
   - Log in to [YouTube Studio](https://studio.youtube.com/)
   - Click "Create" in the top right corner
   - Click "Go live" in the Create menu
