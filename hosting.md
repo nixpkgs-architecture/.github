@@ -58,7 +58,7 @@ If you have one already you can use that one, but you're free to create a new on
 - Update the meeting number and the date in the title
 - Click "NEXT" to get to the Customization tab
 - Click "NEXT" to get to the Visibility tab
-- If the meeting doesn't happen in your timezone (see the [NixOS Calendar](https://calendar.google.com/calendar/u/0/embed?src=b9o52fobqjak8oq8lfkhg3t0qg@group.calendar.google.com&ctz=Europe/Zurich), run the following command, replacing `<date>`, `<time>` and `<timezone>` with the details from the meeting, to figure out the time in your local timezone
+- If the meeting doesn't happen in your timezone (see the [NixOS Calendar](https://calendar.google.com/calendar/u/0/embed?src=b9o52fobqjak8oq8lfkhg3t0qg@group.calendar.google.com&ctz=Europe/Zurich)), run the following command, replacing `<date>`, `<time>` and `<timezone>` with the details from the meeting, to figure out the time in your local timezone
 
   ```
   date --date='<date> <time> <timezone>' +'%Y-%m-%d %r'
