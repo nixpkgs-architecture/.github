@@ -29,6 +29,7 @@ If you have one already you can use that one, but you're free to create a new on
 - Send the E-Mail address of your Google account to [@infinisil:matrix.org](https://matrix.to/#/@infinisil:matrix.org)
 - [@infinisil:matrix.org](https://matrix.to/#/@infinisil:matrix.org) will do the following steps for you:
   - Go to [YouTube Studio](https://studio.youtube.com/)
+  - Make sure you're on the Nixpkgs Architecture Team account
   - Click on "Settings" on the bottom left, a panel should open
   - Click on the "Permissions" tab
   - Click on "Invite"
