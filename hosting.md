@@ -29,24 +29,12 @@ If you have one already you can use that one, but you're free to create a new on
 - Send the E-Mail address of your Google account to [@infinisil:matrix.org](https://matrix.to/#/@infinisil:matrix.org)
 - [@infinisil:matrix.org](https://matrix.to/#/@infinisil:matrix.org) will do the following steps for you:
   - Go to [YouTube Studio](https://studio.youtube.com/)
+  - Make sure you're on the Nixpkgs Architecture Team account
   - Click on "Settings" on the bottom left, a panel should open
   - Click on the "Permissions" tab
   - Click on "Invite"
   - Enter the E-Mail address of your Google account
   - Select "Editor" in the "Access" field
-
-### Preparing Jitsi for live streaming
-
-- Go to the [Jitsi meeting](https://meet.jit.si/nixpkgs-architecture)
-- Enter your nick or name
-- Click "Join meeting", you can mute and turn off the camera
-- Click on the "..." button, this opens up a submenu
-- Click on the "Start live stream" entry, this opens up a panel
-- Click on the "Sign in with Google" button, this opens a pop-up
-- Select your Google account from the previous section
-- Click on "Allow"
-- Ensure that the "Live stream key" field has been automatically filled out. Note that the title of the stream indicated might be wrong, this is not a problem
-- Click on Cancel and leave the meeting, this will work automatically for future meetings
 
 ## Before every the meeting
 
@@ -92,6 +80,7 @@ If you have one already you can use that one, but you're free to create a new on
 - Start the live-stream
   - Click on the "..." button
   - Click on the "Start live stream" entry
+  - Copy the "Stream key" from the live-stream tab and paste it into the Jitsi tab
   - Click the "Start live stream" button
   - Wait until you get confirmation that the stream was started, this takes about 10 seconds
 - Have the meeting
