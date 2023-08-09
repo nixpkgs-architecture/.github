@@ -71,10 +71,11 @@ The process of joining the team is as follows:
   - If applicable and wanted, the company that sponsors time to work on this
   - Tell us what times you'd be available for audio/video meetings
   - If you want an automatically updating invite to the weekly meetings, mention your email address
-- A discussion will take place as to whether you're accepted as a new team member
+- A private discussion among the current team will take place as to whether you're accepted as a new team member
 - The current team members will reach consensus on whether to accept the request and record that decision in the public [team log](https://github.com/nixpkgs-architecture/team-log) document, including all relevant arguments
 - If accepted, [@infinisil:matrix.org](https://matrix.to/#/@infinisil:matrix.org) will take these steps for adding you to the team:
   - Updating the team list [here](https://github.com/NixOS/nixos-homepage/blob/master/community/teams/nixpkgs-architecture.tt) with your entry and all relevant details
+  - Adding you to the private Matrix channel for team members
   - If you want to join the GitHub team, adding your GitHub user to the [nixpkgs architecture](https://github.com/nixpkgs-architecture) organization
   - If you haven't joined the weekly public meetings already, invite you
 
@@ -96,6 +97,7 @@ If there is a hint that a team member doesn't fulfil the requirements anymore bu
 
 The process for voluntarily or involuntarily removing a team member is done by [@infinisil:matrix.org](https://matrix.to/#/@infinisil:matrix.org) and goes as follows:
 - An removal entry is added to the public [team log](https://github.com/nixpkgs-architecture/team-log) including all relevant arguments for removal
+- Removing the respective team member from the private Matrix channel for team members
 - Remove the respective team member from the team list [here](https://github.com/NixOS/nixos-homepage/blob/master/community/teams/nixpkgs-architecture.tt)
 - If applicable, removing the respective team member from the [nixpkgs architecture](https://github.com/nixpkgs-architecture) organization
 
@@ -106,7 +108,8 @@ Code developed for the nixpkgs team is generally committed under the [nixpkgs-ar
 ### Communication
 
 Team communication happens in mainly these forms:
-- Continuously over text in the [#nixpkgs-architecture:nixos.org](https://matrix.to/#/#nixpkgs-architecture:nixos.org) Matrix channel
+- Continuously over text in the public [#nixpkgs-architecture:nixos.org](https://matrix.to/#/#nixpkgs-architecture:nixos.org) Matrix channel
+  - There is also a private Matrix channel exclusively for team members for discussions that can't be shared publicly, like reviewing team member applications
 - Weekly over audio/video in a meeting on Jitsi
 - On Discourse for persistent discussions among the wider community, more end-user focused
 - In GitHub comments for persistent discussions in the team and with nixpkgs developers
