@@ -47,6 +47,18 @@ As a team member you are expected to partake in the teams discussions by bringin
 
 While anybody is welcome to join the public nixpkgs architecture discussions, both to listen in or to bring their opinion, only the team members need to make decisions.
 
+### Team Lead
+
+The current team lead can be found [here](https://nixos.org/community/teams/nixpkgs-architecture.html).
+
+The responsibilities of the team lead are:
+- Making judgement calls when consensus cannot be reached among team members.
+- Handle team administration such as:
+  - Ensuring the meeting gets recorded, meeting notes get written and published
+  - Implement the addition/removal of team members in the GitHub organization, private Matrix channel, the team log, and the NixOS homepage
+- Staying informed on other team members current work
+- Publicly representing the team in the Nix community and owning up to the teams mistakes
+
 #### Current Team
 
 See [here](https://nixos.org/community/teams/nixpkgs-architecture.html).
