@@ -59,6 +59,11 @@ The responsibilities of the team lead are:
 - Staying informed on other team members current work
 - Publicly representing the team in the Nix community and owning up to the teams mistakes
 
+The team lead has the highest level of access to the teams infrastructure:
+- Owner of the [GitHub organization](https://github.com/nixpkgs-architecture)
+- Admin of the [public](https://matrix.to/#/#nixpkgs-architecture:nixos.org) and private Matrix rooms
+- Owner of the [YouTube channel](https://www.youtube.com/@nixpkgs-architecture)
+
 #### Current Team
 
 See [here](https://nixos.org/community/teams/nixpkgs-architecture.html).
