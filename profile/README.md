@@ -70,14 +70,14 @@ The process of joining the team is as follows:
   - If you'd like to join the GitHub team, mention your GitHub user
   - If applicable and wanted, the company that sponsors time to work on this
   - Tell us what times you'd be available for audio/video meetings
-  - If you want an automatically updating invite to the weekly meetings, mention your email address
+  - If you want an automatically updating invite to the meetings, mention your email address
 - A private discussion among the current team will take place as to whether you're accepted as a new team member
 - The current team members will reach consensus on whether to accept the request and record that decision in the public [team log](https://github.com/nixpkgs-architecture/team-log) document, including all relevant arguments
 - If accepted, [@infinisil:matrix.org](https://matrix.to/#/@infinisil:matrix.org) will take these steps for adding you to the team:
   - Updating the team list [here](https://github.com/NixOS/nixos-homepage/blob/master/community/teams/nixpkgs-architecture.tt) with your entry and all relevant details
   - Adding you to the private Matrix channel for team members
   - If you want to join the GitHub team, adding your GitHub user to the [nixpkgs architecture](https://github.com/nixpkgs-architecture) organization
-  - If you haven't joined the weekly public meetings already, invite you
+  - If you haven't joined the public meetings already, invite you
 
 #### Leaving the team
 
@@ -110,14 +110,14 @@ Code developed for the nixpkgs team is generally committed under the [nixpkgs-ar
 Team communication happens in mainly these forms:
 - Continuously over text in the public [#nixpkgs-architecture:nixos.org](https://matrix.to/#/#nixpkgs-architecture:nixos.org) Matrix channel
   - There is also a private Matrix channel exclusively for team members for discussions that can't be shared publicly, like reviewing team member applications
-- Weekly over audio/video in a meeting on Jitsi
+- Regularly over audio/video in a meeting on Jitsi
 - On Discourse for persistent discussions among the wider community, more end-user focused
 - In GitHub comments for persistent discussions in the team and with nixpkgs developers
 - Gathering design knowledge on [the wiki](https://github.com/nixpkgs-architecture/issues/wiki)
 
 ### Meetings
 
-Weekly meetings are held on [Jitsi](https://meet.jit.si/nixpkgs-architecture) and are fully public. Meetings are tracked as a calendar event in the public [NixOS Google Calendar](https://calendar.google.com/calendar/embed?src=b9o52fobqjak8oq8lfkhg3t0qg%40group.calendar.google.com&ctz=Europe%2FZurich). If you're interested in participating (whether you're a member of the team or not), ask for an invite with your Email in [#nixpkgs-architecture:nixos.org](https://matrix.to/#/#nixpkgs-architecture:nixos.org), so you get automatic updates when something changes about the event. Anybody that's already invited to the meeting is free and encouraged to invite anybody else.
+Meetings are held on [Jitsi](https://meet.jit.si/nixpkgs-architecture) and are fully public. Meetings are tracked as a calendar event in the public [NixOS Google Calendar](https://calendar.google.com/calendar/embed?src=b9o52fobqjak8oq8lfkhg3t0qg%40group.calendar.google.com&ctz=Europe%2FZurich). If you're interested in participating (whether you're a member of the team or not), ask for an invite with your Email in [#nixpkgs-architecture:nixos.org](https://matrix.to/#/#nixpkgs-architecture:nixos.org), so you get automatic updates when something changes about the event. Anybody that's already invited to the meeting is free and encouraged to invite anybody else.
 
 Every meeting is live-streamed/uploaded to the [Nixpkgs Architecture Team YouTube channel](https://www.youtube.com/@nixpkgs-architecture) for later viewing. Meeting notes are taken on https://pad.lassul.us/ and later committed to https://github.com/nixpkgs-architecture/meetings.
 
