@@ -6,7 +6,7 @@ The Nixpkgs Architecture Team is there to solve architectural nixpkgs issues tha
 
 This section describes the process of going from an issue to a solution. While described here as one, this shouldn't be a linear process. Instead this should be done in a feedback-oriented way.
 
-Every issue considered considered by this team is tracked by [this project board](https://github.com/orgs/nixpkgs-architecture/projects/2).
+Every issue considered by this team is tracked by [this project board](https://github.com/orgs/nixpkgs-architecture/projects/2).
 
 The recommended way to track progress for a specific issue is to create a separate project board and fill it with nixpkgs issues.
 
@@ -136,6 +136,6 @@ Team communication happens in mainly these forms:
 
 Meetings are held on [Jitsi](https://meet.jit.si/nixpkgs-architecture) and are fully public. Meetings are tracked as a calendar event in the public [NixOS Google Calendar](https://calendar.google.com/calendar/embed?src=b9o52fobqjak8oq8lfkhg3t0qg%40group.calendar.google.com&ctz=Europe%2FZurich). If you're interested in participating (whether you're a member of the team or not), ask for an invite with your Email in [#nixpkgs-architecture:nixos.org](https://matrix.to/#/#nixpkgs-architecture:nixos.org), so you get automatic updates when something changes about the event. Anybody that's already invited to the meeting is free and encouraged to invite anybody else.
 
-Every meeting is live-streamed/uploaded to the [Nixpkgs Architecture Team YouTube channel](https://www.youtube.com/@nixpkgs-architecture) for later viewing. Meeting notes are taken on https://pad.lassul.us/ and later committed to https://github.com/nixpkgs-architecture/meetings.
+Meeting notes are taken on https://pad.lassul.us/ and later committed to https://github.com/nixpkgs-architecture/meetings.
 
 A guide for how to host these meetings can be found [here](./hosting.md)
