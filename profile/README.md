@@ -1,6 +1,27 @@
+> [!note]
+> The team is now disbanded, see https://discourse.nixos.org/t/nixpkgs-architecture-team-conclusion-and-prospective/41020 for more info.
+
 # Nixpkgs Architecture Team
 
-The Nixpkgs Architecture Team is there to solve architectural nixpkgs issues that are too big in scope for any single person to undertake. For more general information about motivation, goals and current team members, see [here](https://nixos.org/community/teams/nixpkgs-architecture.html).
+The Nixpkgs Architecture Team is there to solve architectural nixpkgs issues that are too big in scope for any single person to undertake.
+
+## Motivation
+
+Nixpkgs is arguably the most valuable resource for Nix users. Its collection of packages is used by virtually every Nix user, private or commercially. However, there's continuous complaints by virtually every user of nixpkgs about various aspects, like missing documentation, difficulty of contributing, inconsistent interfaces and missing features. These problems need to be fixed eventually, doing nothing is not an option if Nix should be taken seriously as a universal solution for packaging.
+
+The scale of nixpkgs has grown so considerably in recent years that it's not possible anymore for any single person to fix larger problems. And even if someone does manage to find a solution to a problem, there's nobody who can officially accept that solution and actually merge it. Over the years a number of improvements have been suggested and implemented, but most of them never made it to the finish line.
+
+By creating a team tasked with the job of finding solutions to these issues it becomes much more feasible to actually do it.
+
+## Goals
+
+The primary goal of this team is to make interactions with nixpkgs a joy, so that it's easy and intuitive to use, learn and contribute to. The way in which this should be achieved is to fix problems in a clean, consistent and future-proof way. It should be ensured that nixpkgs is a solid and trustworthy foundation for the Nix community that can be relied upon.
+
+The process in which this should be achieved is to gather and analyze critical feedback from users to find the root causes of problems. We will come up with solutions to these problems and evaluate them. Eventually we'll reach consensus and decide on a solution and turn it into reality. This is explained in more detail in the process section over on GitHub.
+
+Since nixpkgs is widely used by third-party code, this team needs to be very careful to ensure reasonable backwards-compatibility. Backwards incompatible changes are only in scope after a deprecation window of an appropriate duration and accompanying warning.
+
+Check out this GitHub board for an up-to-date list of issues that are being considered. If you have an idea for an issue that should be considered, please open a new issue and it will be automatically added to the board. 
 
 ## Process
 
